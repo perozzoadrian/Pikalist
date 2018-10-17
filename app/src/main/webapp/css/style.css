@@ -1,0 +1,235 @@
+body {
+	overflow-x: hidden;
+}
+
+.body-backoffice {
+	background-color: #F4EEFE;
+	/*#FC965C*/
+}
+.body-perfil{
+	background-color: #fdcaad;
+}
+ul, li {
+	list-style: none;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+}
+
+#nav-backoffice {
+	min-height: 125px;
+}
+
+li.nav-item a img {
+	margin: 0.25em;
+}
+i.badge{
+	font-size: 2em;
+}
+.comentario{
+	background-color: rgba(92,114,252,0.35);
+    padding: 1em;
+    margin: .5em 0;
+}
+#texto_comentario{
+	overflow-y: scroll;
+	max-height: 50vh;
+}
+.card-text{
+	max-height: 100px;
+	overflow-y: scroll;
+}
+td[onclick]:hover,td[data-toggle]:hover{
+	cursor: pointer;
+}
+/****
+*	BG-Colorsm, Colores y botones Custom
+******************************************************************/
+.bg-pika {
+	background-color: #72FC5C;
+}
+
+.bg-pika-blue {
+	background-color: #5C72FC;
+}
+
+.bg-pika-yellow {
+	background-color: #FCE65C;
+}
+
+.bg-pika-red {
+	background-color: #FC5C72;
+}
+
+.bg-pika-purple {
+	background-color: #965CFC;
+}
+
+.bg-pika-orange{
+	background-color: #FC965C;
+}
+
+.bg-pika-kard {
+	background-color: #FFF;
+}
+
+.text-pika-brown{
+	color:#7e4b2e;
+}
+
+.text-pika-purple {
+	color: #965CFC;
+}
+
+.text-pika-red {
+	color: #FC5C72;
+}
+
+.text-pika-yellow {
+	color: #FCE65C;
+}
+
+.text-pika-blue {
+	color: #5C72FC;
+}
+
+.text-pika {
+	color: #72FC5C;
+}
+
+a.text-pika {
+	margin: .75em;
+}
+
+a.text-pika:hover {
+	color: #72FC5C !important;
+}
+
+a.text-pika-red:hover {
+	color: #FC5C72 !important;
+}
+
+a.text-pika-yellow:hover {
+	color: #FCE65C !important;
+}
+
+a.text-pika-blue:hover {
+	color: #5C72FC !important;
+}
+
+a.text-pika-purple:hover {
+	color: #965CFC !important;
+}
+a.text-pika-brown:hover{
+	color:#7e4b2e !important;
+}
+.btn-main{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: transparent;
+	background-image: none;
+}
+
+.btn-main:hover{
+	cursor: pointer;
+}
+
+.btn-outline-pika {
+	color: #72FC5C;
+	border-color: #72FC5C;
+}
+
+.btn-outline-pika:hover {
+	color: #000;
+	background-color: #72FC5C;
+	border-color: #72FC5C;
+	text-decoration: none;
+}
+
+.btn-outline-pika-blue {
+	color: #5C72FC;
+	border-color: #5C72FC;
+}
+
+.btn-outline-pika-blue:hover {
+	color: #FFF;
+	background-color: #5C72FC;
+	border-color: #5C72FC;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-outline-pika-red {
+	color: #FC5C72;
+	border-color: #FC5C72;
+}
+
+.btn-outline-pika-red:hover {
+	color: #000;
+	background-color: #FC5C72;
+	border-color: #FC5C72;
+	text-decoration: none;
+}
+
+.btn-outline-pika-purple {
+	color: #965CFC;
+	border-color: #965CFC;
+}
+
+.btn-outline-pika-purple:hover {
+	color: #FFF;
+	background-color: #965CFC;
+	border-color: #965CFC;
+	text-decoration: none;
+}
+
+/******
+*	Listados con hover
+***********************************************************/
+.list-group-item:hover {
+	background-color: #C6FDBD;
+}
+
+.body-backoffice .list-group-item:hover,.card-footer:hover {
+	background-color: rgba(252, 150, 92, .5);
+}
+/******
+*	Pantalla de Login y de registro
+***********************************************************/
+.fondo-login {
+	background: url("../images/fondo_login.jpg");
+}
+
+.fondo-login .row {
+	padding: 15em;
+}
+
+.fondo-login .fondo-login-form {
+	background-color: rgba(0, 0, 0, .7);
+	padding: 1em;
+	border-radius: .25em;
+}
+
+.fondo-login-form h1, .fondo-login-form small, .fondo-login-form i,
+	.fondo-login-form label {
+	color: #72FC5C;
+}
